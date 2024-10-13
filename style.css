@@ -1,0 +1,73 @@
+/* Imposta il colore di sfondo viola */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4B0082;
+    color: white;
+    height: 100%;
+}
+
+/* Schermata principale con immagine centrata */
+.main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #4B0082;
+}
+
+.secondary-page, .private-area {
+    padding: 20px;
+    background-color: #4B0082;
+    color: white;
+    height: 100vh;
+}
+
+.centered-image {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #4B0082;
+    border: none;
+    cursor: pointer;
+}
+
+/* Stile per i tasti freccia */
+.back-button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #4B0082;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+th {
+    background-color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #555;
+}

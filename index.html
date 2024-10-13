@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-order Website</title>
+    <!-- Collegamento al file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Schermata principale -->
+    <div class="main-page" id="main-page">
+        <!-- Immagine caricata al centro -->
+        <img src="website_logo_v2.PNG" alt="Logo" class="centered-image">
+        <button class="enter-button" onclick="goToSecondaryPage()">Entra</button>
+        <button class="private-area-button" onclick="goToPrivateArea()">Area Privata</button>
+    </div>
+
+    <!-- Schermata secondaria -->
+    <div class="secondary-page" id="secondary-page" style="display:none;">
+        <form id="order-form">
+            <label for="color">Colore della grafica:</label>
+            <select id="color" name="color">
+                <option value="viola">Viola</option>
+                <option value="rosso">Rosso</option>
+                <option value="bianco">Bianco</option>
+                <option value="verde">Verde</option>
+            </select><br><br>
+            
+            <label for="size">Taglia della felpa:</label>
+            <select id="size" name="size">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+            </select><br><br>
+            
+            <label for="phone">Numero di telefono:</label>
+            <input type="text" id="phone" name="phone"><br><br>
+            
+            <label for="via">Via:</label>
+            <input type="text" id="via" name="via"><br><br>
+            
+            <label for="city">Città:</label>
+            <input type="text" id="city" name="city"><br><br>
+            
+            <label for="cap">CAP:</label>
+            <input type="text"
